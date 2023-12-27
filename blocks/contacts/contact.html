@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=ABeeZee&family=Reggae+One&family=Rubik+Mono+One&family=Rubik+Wet+Paint&display=swap" rel="stylesheet">
+    <link rel="shortcut icon" href="/assets/header/logo.svg">
+    <link rel="stylesheet" href="/global.css">
+    <link rel="stylesheet" href="./contact.css">
+    <title>Buuu!</title>
+</head>
+<body>
+    <header class="header__contact header">
+        <div class="container">
+            <div class="header-wraper">
+                <img src="/assets/contact/spider.svg" class="header__contact-img">
+                <a href="/blocks/main/main.html" class="header-logo"><img src="/assets/header/logo.svg"></a>
+                <nav class="header-menu">
+                    <ul class="header-menu__list">
+                        <li class="header-menu__list--item"><a href="/blocks/main/main.html">услуги</a><img src="/assets/header/blood.svg"></li>
+                        <li class="header-menu__list--item"><a href="/blocks/cart/cart.html">Корзина</a><img src="/assets/header/blood.svg"></li>
+                        <li class="header-menu__list--item"><a href="/blocks/singin/signin.html">регистрация</a><img src="/assets/header/blood.svg"></li>
+                        <li class="header-menu__list--item"><a class="header-menu__list--active" href="#">контакты</a><img src="/assets/header/blood.svg"></li>
+                    </ul>
+                </nav>
+            </div>
+        </div>
+    </header>
+    <section class="contact-services">
+        <div class="container">
+            <h2 class="contact-services__text">НАШИ УСЛУГИ: <img class="contact-services__text--before" src="/assets/main/Line 3.svg"></h2>
+            <div class="contact-services__main">
+                <img src="/assets/contact/manic.png" alt="" class="contact-services__main-img">
+                <div class="contact-services__block">
+                    <div class="contact-services__block-items">
+                        <a data-name="Маникюр/педикюр" onclick="services(this)" class="contact-services__block-items--btns"><img src="/assets/contact/manic.png" alt=""></a>
+                        <a data-name="Мэйкап" onclick="services(this)" class="contact-services__block-items--btns"><img src="/assets/contact/makeup.png" alt=""></a>
+                        <a data-name="Солярий" onclick="services(this)" class="contact-services__block-items--btns"><img src="/assets/contact/solar.png" alt=""></a>
+                        <a data-name="Парикхмахерская" onclick="services(this)" class="contact-services__block-items--btns"><img src="/assets/contact/barber.png" alt=""></a>
+                    </div>
+                    <a href="/blocks/services/manic.html" onclick="services_path(this)" class="contact-services__btn">Маникюр/педикюр <p class="services__btn--after">1500р</p></a>
+                </div>
+            </div>
+        </div>
+        <img src="/assets/contact/bat.svg" id="bat">
+    </section>
+    <main class="contact-profi">
+        <div class="container">
+            <h2 class="contact-services__text">НАШИ  МАСТЕРА:<img class="contact-services__text--before" src="/assets/main/Line 3.svg"></h2>
+            <div class="contact-profi__content">
+                <div class="contact-profi__conten-block">
+                    <img class="profi-conten__block-img" src="/assets/contact/bili.png">
+                    <h2 class="profi-conten__block-title">Билайн Айлишова</h2>
+                    <p class="profi-conten__block-subtitle">мастер по маникюру</p>
+                </div>
+                <div class="contact-profi__conten-block">
+                    <img class="profi-conten__block-img" src="/assets/contact/zuza.png">
+                    <h2 class="profi-conten__block-title">Зюзя Сливко</h2>
+                    <p class="profi-conten__block-subtitle">специалист по макияжу</p>
+                </div>
+                <div class="contact-profi__conten-block">
+                    <img class="profi-conten__block-img" src="/assets/contact/falos.png">
+                    <h2 class="profi-conten__block-title">Юлечка Фестиваль</h2>
+                    <p class="profi-conten__block-subtitle">парикмахер</p>
+                </div>
+                <div class="contact-profi__conten-block">
+                    <img class="profi-conten__block-img" src="/assets/contact/грязный.png">
+                    <h2 class="profi-conten__block-title">Амиран Бабулехов</h2>
+                    <p class="profi-conten__block-subtitle">самый богатый человек в мире</p>
+                </div>
+            </div>
+        </div>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <nav class="footer-nav">
+                <ul class="footer-nav__list">
+                    <li class="footer-nav__list-link"><a href="">контактная информация:</a></li>
+                    <li class="footer-nav__list-link"><a href="tel:+7 (228)-420-14-88">+7 (228)-420-14-88</a></li>
+                    <li class="footer-nav__list-link"><a href="">ig: @abobazilgi</a></li>
+                    <li class="footer-nav__list-link"><a href="mailto:jadebiloid@gmail.com">jadebiloid@gmail.com</a></li>
+                </ul>
+            </nav>
+        </div>
+    </footer>
+    <script src="/global.js"></script>
+    <script src='./contact.js'></script>
+</body>
+</html>

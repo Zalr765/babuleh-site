@@ -1,0 +1,116 @@
+*, *:after, *:before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    z-index: 2;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    outline: none;
+}
+img {
+    display: block;
+    width: 100%;
+}
+h1, h2, h3, h4, h5, h6, p {
+    padding: 0;
+    margin: 0;
+}
+body {
+    font-size: 14px;
+    line-height: 1;
+}
+input {
+    outline:none;
+    outline-offset: 0;
+    border: none;
+}
+
+/*----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------*/
+.container
+{
+    max-width: 1080px;
+    margin: 0 auto;
+}
+/*-----------------------------------------------------------------------------HEADER---------------------------------------------------------------------------------------------*/
+.header-logo
+{
+    width: 85px;
+    height: 50px;
+}
+.header
+{
+    padding: 15px 0;
+    background-color: #111114;
+}
+.header-menu__list
+{
+    display: flex;
+}
+.header-menu__list--item>a
+{
+    text-transform: uppercase;
+    font-family: 'Rubik Mono One';
+    color: #FD3434;
+    font-size: 16px;
+    transition: .3s;
+}
+.header-menu__list--item>img
+{
+    position: absolute;
+    top: 13px;
+    width: 100%;
+    opacity: 0;
+}
+.header-menu__list--item>a:hover
+{
+    color: rgb(255, 139, 139);
+    transition: .3s;
+}
+.header-menu__list--active~img
+{
+    opacity: 1;
+}
+.header-menu__list--item
+{
+    margin-right: 30px;
+    position: relative;
+    transition: .3s;
+}
+.header-menu__list--item:last-child
+{
+    margin: 0;
+}
+.header-wraper
+{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.header--mod
+{
+    background-color: unset;
+}
+a.header-menu__list--active
+{
+    color: rgb(255, 139, 139);
+}
+.footer
+{
+    background: linear-gradient(#1D1D23,  #7C7D8F);
+    padding: 150px 0;
+}
+.footer-nav__list
+{
+    display: flex;
+    justify-content: space-between;
+}
+.footer-nav__list-link>a
+{
+    color: white;
+    font-family: 'ABeeZee';
+    font-size: 16px;
+}

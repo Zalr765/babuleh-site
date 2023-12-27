@@ -1,0 +1,45 @@
+body
+{
+    background-color: #1D1D23;
+}
+.cart
+{
+    margin-bottom: 100px;
+}
+.cart-block
+{
+    margin-top: 120px;
+    background-color: #111114;
+    height: 180px;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+    font-family: 'Reggae One';
+    font-size: 24px;
+    padding: 0 40px;
+}
+.cart-block>img
+{
+    width: 150px;
+    border: 15px solid #1d1d23;
+    border-radius: 100%;
+    position: absolute;
+    left: -60px;
+    top: -60px;
+}
+.urna
+{
+    background: none;
+    border: none;
+}
+.counter
+{
+    margin-right: 15px;
+}
+.cart-block__counter
+{
+    display: flex;
+    align-items: center;
+}

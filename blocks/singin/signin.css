@@ -1,0 +1,76 @@
+body
+{
+    height: 100vh;
+    background-color: #1d1d23;
+    display: flex;
+    justify-content: center;
+}
+.sign
+{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10vh;
+}
+.sign-form
+{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.sign-title
+{
+    color: unset;
+    font-family: 'Rubik Mono One';
+    -webkit-text-stroke: 1px #FD3434;
+    font-size: 36px;
+    margin-bottom: 20vh;
+}
+.sign-form__input
+{
+    display: flex;
+    border-bottom: 2px solid #FD3434;
+    padding-bottom: 15px;
+    width: 100%;
+    margin-bottom: 5vh;
+}
+.sign-form__input>img
+{
+    width: 38px;
+    height: 46px;
+    margin: 0 30px;
+}
+.sign-form__input>input
+{
+    background-color: unset;
+    color:  #6c2529;
+    font-size: 36px;
+}
+::-webkit-input-placeholder { /* WebKit browsers */
+    color:  #6c2529;
+}
+.sign-form__btn
+{
+    width: 80%;
+    align-self: center;
+    margin-top: 10vh;
+    height: 7vh;
+    color: #1d1d23;
+    background-color: #FD3434;
+    border: none;
+    text-transform: uppercase;
+    font-size: 19px;
+    font-family: 'Rubik Mono One';
+    display: flex;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+.login
+{
+    font-family: 'Reggae One';
+    color: #FD3434;
+    font-size: 6;
+    text-align: end;
+    margin-top: 40px;
+}

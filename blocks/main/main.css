@@ -1,0 +1,72 @@
+.main-header
+{
+    height: 100vh;
+    width: 100%;
+	background-image: url(/assets/main/bg.png);
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden;
+}
+.main-header::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.7);
+    z-index: -1;
+}
+
+.main-header__text
+{
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    margin-bottom: 30vh;
+}
+.main-header__text-title
+{
+    font-family: 'Rubik Wet Paint';
+    font-size: 60px;
+    color: #FD3434;
+}
+.main-header__text-subtitle
+{
+    font-family: 'Reggae One';
+    font-size: 45px;
+    color: #F0535C;
+    margin-top: 35px;
+}
+
+.services
+{
+    background-color: #1D1D23;
+    padding-top: 120px;
+}
+.services-text
+{
+    color: #FD3434;
+    font-family: 'Reggae One';
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+    margin-bottom: 250px;
+}
+.services-text--before
+{
+    position: absolute;
+}
+.services-content
+{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.services-content__pic
+{
+    width: 45%;
+    margin-bottom: 150px;
+}

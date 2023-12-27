@@ -1,0 +1,144 @@
+body
+{
+    background-color: #1D1D23;
+}
+.header__contact
+{
+    position: relative;
+}
+.header__contact-img
+{
+    position: absolute;
+    width: 200px;
+    top: 79px;
+}
+.contact-services__text--before
+{
+    position: absolute;
+}
+.contact-services__text
+{
+    margin-top: 150px;
+    color: #FD3434;
+    font-family: 'Reggae One';
+    font-size: 60px;
+    text-align: center;
+    position: relative;
+}
+.contact-services__main
+{
+    margin-top: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.contact-services__block-items
+{
+   display: flex;
+}
+.contact-services__block
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.contact-services__main-img
+{
+    width: 400px;
+}
+.contact-services__block-items--btns
+{
+    margin-right: 20px;
+    cursor: pointer;
+}
+.contact-services__block-items--btns:last-child
+{
+    margin: 0;
+}
+.contact-services__block-items--btns>img
+{
+    width: 150px;
+}
+.contact-services__btn
+{
+    display: block;
+    cursor: pointer;
+    width: 80%;
+    background-color: #111114;
+    font-family: 'Reggae One';
+    color: white;
+    padding: 50px 0;
+    text-align: center;
+    border-radius: 15px;
+    margin-bottom: 10px;
+    font-size: 30px;
+    position: relative;
+}
+.services__btn--after
+{
+    color: white;
+    font-family: 'Reggae One';
+    font-size: 20px;
+    position: absolute;
+    display: inline-block;
+    width: 150px;
+    padding: 20px 0;
+    border-radius: 20px;
+    background: linear-gradient(0.75turn, #EE1B1B, #320707);
+    left: 20px;
+    top: 100px;
+}
+.contact-services
+{
+    position: relative;
+}
+
+
+#bat
+{
+    position: absolute;
+    width: 800px;
+    top: 400px;
+    right: 20px;
+}
+.contact-profi
+{
+    margin-top: 350px;
+    margin-bottom: 150px;
+}
+.contact-profi__content
+{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 300px;
+}
+.contact-profi__conten-block
+{
+    width: 23%;
+    height: 120px;
+    background-color: #494957;
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: end;
+    align-items: center;
+    padding-bottom: 15px;
+    border-radius: 5px;
+    color: white;
+}
+.profi-conten__block-img
+{
+    width: 70%;
+    position: absolute;
+    left: 15%;
+    bottom: 55%;
+}
+.profi-conten__block-title
+{
+    font-family: 'Reggae One';
+    font-size: 15px;
+}
+.profi-conten__block-subtitle
+{
+    font-size: 13px;
+    margin-top: 10px;
+}
